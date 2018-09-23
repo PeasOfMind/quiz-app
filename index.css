@@ -12,7 +12,7 @@ body {
     font-family: 'Roboto', sans-serif;
     background: black;
     min-width: 200px;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 header {
@@ -100,8 +100,12 @@ a:hover, a:active, a:focus {
 }
 
 legend {
+    margin: 0 0 10px;
+}
+
+h3 {
     font-size: 1.3em;
-    padding: 10px 0;
+    margin-bottom: 10px;
 }
 
 fieldset > p {
@@ -154,6 +158,13 @@ input[type=radio]:hover + label, input[type=radio]:focus + label {
 @media only screen and (max-width: 350px){
     h1 {
         margin-top: 30px;
+    }
+    .bumpUp {
+        margin-top: -150px;
+    }
+
+    .hidden {
+        display: none;
     }
 
     .track-progress {

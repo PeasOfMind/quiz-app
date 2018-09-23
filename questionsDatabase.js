@@ -8,12 +8,12 @@ const KEY = [
     food in the US although still used in other countries.`,
     answers: ['Radium', 'Borax (Sodium Borate)', 'Potassium Bromate', 'Cyclamate'],
     correct: 'Borax (Sodium Borate)',
-    response: `<img src="https://hips.hearstapps.com/esq.h-cdn.co/assets/cm/15/06/54cf5d7ac4217_-_poison-squad-sign.jpg" alt="Poison Squad eating a meal with sign
-    that says 'None but the Brave Can Eat the Fare'">`,
+    response: `<img src="https://hips.hearstapps.com/esq.h-cdn.co/assets/cm/15/06/54cf5d7ac4217_-_poison-squad-sign.jpg" 
+    alt="Poison Squad eating a meal with sign that says 'None but the Brave Can Eat the Fare'">`,
     feedback: `Borax is still used as a cleaning product in the US. Read more about 
     the daring experiments the Poison Squad went through to make food safe!
-    <a href="https://www.atlasobscura.com/articles/food-testing-in-1902-featured-a-
-    tuxedoclad-poison-squad-eating-plates-of-acid" target="_blank">
+    <a href="https://www.atlasobscura.com/articles/food-testing-in-1902-featured-a-tuxedoclad-poison-squad-eating-plates-of-acid" 
+    target="_blank" rel="noopener noreferrer">
     Article on the Poison Squad</a>`
     },
     {question: `This highly processed substance is made from GMO corn and is common 
@@ -26,7 +26,7 @@ const KEY = [
     note, a study in 2012 did find that maltodextrin can mess with your gut bacteria & 
     make you more susceptible to disease.<br>
     <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0052132"
-    target="_blank">Source</a>`
+    target="_blank" rel="noopener noreferrer">Source</a>`
     },
     {question: `This chemical is used in personal care products as a foaming agent. 
     Although determined to be safe for consumer use in the US, it is known to cause eye 
@@ -40,7 +40,7 @@ const KEY = [
     alt="Antoni from Queer Eye crying">`},
     feedback: `Want to read more about the ingredients in your personal care 
     products? Check out this resource: 
-    <a href="https://www.ewg.org/" target="_blank">Environmental Working Group</a>`
+    <a href="https://www.ewg.org/" target="_blank" rel="noopener noreferrer">Environmental Working Group</a>`
     },
     {question: `This food additive is made from ground up bugs.`,
     answers: ['Carmine','Annatto Extract', 'Lanoline', 'Shellac'],
@@ -57,7 +57,7 @@ const KEY = [
     response: `<img src="http://www.naturesgardenexpress.com/blog/wp-content/uploads/2014/02/subway-yoga-mat-bread.jpg"
     alt="Yoga mat with subway sandwich inbetween">`,
     feedback: `The blog post that started it all: <a href="https://foodbabe.com/subway/"
-    target="_blank">
+    target="_blank" rel="noopener noreferrer">
     Subway: Stop Using Dangerous Chemicals In Your Bread</a>.<p class="feedback-paragraph">
     Many other fast food chains (like MacDonalds and Wendy’s) also phased 
     out using this chemical due to the negative publicity. Azodicarbonamide is still 
@@ -88,7 +88,7 @@ const KEY = [
     shelf as “generally recognized as safe” but has set acceptable daily intakes that 
     you should be aware of if you have a sweet tooth. Find that table here: 
     <a href="https://www.fda.gov/food/ingredientspackaginglabeling/foodadditivesingredients/ucm397725.htm" 
-    target="_blank">Additional Information about High-Intensity Sweeteners</a>`
+    target="_blank" rel="noopener noreferrer">Additional Information about High-Intensity Sweeteners</a>`
     },
     {question: `This additive to diet versions of your favorite snacks has been linked 
     to diarrhea or “oily anal leakage”. In 2010, it was honored on Time’s list of the 
@@ -102,7 +102,7 @@ const KEY = [
     to absorb essential vitamins and gives you cramps and gas. Sexy. Find more facepalm 
     inventions on Time’s list:
     <a href="https://content.time.com/time/specials/packages/completelist/0,29569,1991915,00.html" 
-    target="_blank">The 50 Worst Inventions</a> `
+    target="_blank" rel="noopener noreferrer">The 50 Worst Inventions</a> `
     },
     {question: `Like your apples spotless and shiny? Well the fruits weren’t born that way. This chemical 
     adds a glossy sheen to apples and prevent them from browning in storage. So that fresh looking apple 
@@ -127,7 +127,7 @@ const KEY = [
     got a bad rap because a study in 1969 showed that large doses of MSG given to newborn mice lead to harmful 
     neurological effects. But the MSG in our food isn’t nearly close to those quantities and is unlikely to 
     have any effect on the human brain since it can’t cross the blood-brain barrier.<br>
-    <a href="https://www.ncbi.nlm.nih.gov/pubmed/19571220" target="_blank">Source</a>`
+    <a href="https://www.ncbi.nlm.nih.gov/pubmed/19571220" target="_blank" rel="noopener noreferrer">Source</a>`
     }
 ];
 

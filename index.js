@@ -61,8 +61,8 @@ function getQuestionString(quizList){
     const answersString = getAnswersString(questionObj.answers);
     return `<form id ="js-question-form">
     <fieldset>
-        <legend>Question ${count+1}</legend>
-        <p>${questionObj.question}</p>
+        <legend><h3>Question ${count+1}</h3>
+        ${questionObj.question}</legend>
         ${answersString}
         <button type="submit" class="submitButton">Submit</button>
     </fieldset>
@@ -76,6 +76,8 @@ function generateQuestionPage(){
         const questionString = getProgressString(KEY, score) + 
         getQuestionString(KEY);
         $('#js-input').append(questionString);
+        $('main').removeClass('bumpUp');
+        $('h1').removeClass('hidden');
     });
 }
 
@@ -132,6 +134,8 @@ function generateFeedbackPage(){
         incrementCount();
         $('#js-input').empty();
         $('#js-input').append(feedbackString);
+        $('main').addClass('bumpUp');
+        $('h1').addClass('hidden');
     });
 }
 
@@ -158,6 +162,8 @@ function generateFinalPage(){
         const finalString = getFinalString(KEY);
         $('#js-input').empty();
         $('#js-input').append(finalString); 
+        $('main').removeClass('bumpUp');
+        $('h1').removeClass('hidden');
         backToStart();
     });
 }
@@ -170,7 +176,9 @@ function backToStart(){
     });
 }
 
-$(generateStartPage);  
-$(generateQuestionPage);  
-$(generateFeedbackPage);
-$(generateFinalPage)
+$(function (){
+    generateStartPage();
+    generateQuestionPage();
+    generateFeedbackPage();
+    generateFinalPage();
+});
