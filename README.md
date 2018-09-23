@@ -1,5 +1,5 @@
 # quiz-app
-quiz on food and personal care product ingredients
+Quiz on food and personal care product ingredients
 
 Question number and score are tracked at the top of the page &
 feedback is provided after each question
