@@ -8,7 +8,7 @@ const KEY = [
     food in the US although still used in other countries.`,
     answers: ['Radium', 'Borax (Sodium Borate)', 'Potassium Bromate', 'Cyclamate'],
     correct: 'Borax (Sodium Borate)',
-    response: `<img src="https://hips.hearstapps.com/esq.h-cdn.co/assets/cm/15/06/54cf5d7ac4217_-_poison-squad-sign.jpg" 
+    response: `<img src="images/poison-squad-sign.jpg" 
     alt="Poison Squad eating a meal with sign that says 'None but the Brave Can Eat the Fare'">`,
     feedback: `Borax is still used as a cleaning product in the US. Read more about 
     the daring experiments the Poison Squad went through to make food safe!
@@ -20,7 +20,7 @@ const KEY = [
     in packaged foods as a thickener or filler while extending shelf life.`,
     answers: ['Guar Gum', 'Maltodextrin', 'Xanthan Gum', 'High-Fructose Corn Syrup'],
     correct: 'Maltodextrin',
-    response: `<img src="https://images.pexels.com/photos/5765/flour-powder-wheat-jar.jpg"
+    response: `<img src="images/flour-powder-wheat-jar.jpg"
     alt="jar of maltodextrin powder">`,
     feedback: `Maltodextrin has been okayed by the FDA as a safe food additive but take 
     note, a study in 2012 did find that maltodextrin can mess with your gut bacteria & 
@@ -34,9 +34,9 @@ const KEY = [
     same thing that cleans the engine in a car.”`,
     answers: ['Panthenol', 'Dimethicone', 'Sodium Lauryl Sulfate','Parabens'],
     correct: 'Sodium Lauryl Sulfate',
-    response: {right: `<img src="https://i.giphy.com/media/3ohs4vCUiRVUuwgsdG/giphy.webp"
+    response: {right: `<img src="images/yas-queen.webp"
     alt="Jonathan from Queer Eye saying 'Yes, queen!'">`,
-    wrong: `<img src="https://i.giphy.com/media/ZcaLOINqHuumtOjjKZ/giphy.webp"
+    wrong: `<img src="images/antoni-crying.webp"
     alt="Antoni from Queer Eye crying">`},
     feedback: `Want to read more about the ingredients in your personal care 
     products? Check out this resource: 
@@ -45,7 +45,7 @@ const KEY = [
     {question: `This food additive is made from ground up bugs.`,
     answers: ['Carmine','Annatto Extract', 'Lanoline', 'Shellac'],
     correct: 'Carmine',
-    response: `<img src="https://media.wired.com/photos/59547f0e8e8cc150fa8ec16f/master/pass/Dactylopius_coccus_05.jpg"
+    response: `<img src="images/Dactylopius_coccus_05.jpg"
     alt="Cochineal bugs on host cactus">`,
     feedback: `Carmine is made from female cochineal bugs and has been used by 
     people for centuries as a red dye. These bugs live on cactus. What a cozy home!`
@@ -54,7 +54,7 @@ const KEY = [
     after a food blogger incited a public outcry about it.`,
     answers: ['Asorbic Acid', 'Natamycin', 'Formaldehyde', 'Azodicarbonamide'],
     correct: 'Azodicarbonamide',
-    response: `<img src="http://www.naturesgardenexpress.com/blog/wp-content/uploads/2014/02/subway-yoga-mat-bread.jpg"
+    response: `<img src="images/subway-yoga-mat-bread.jpg"
     alt="Yoga mat with subway sandwich inbetween">`,
     feedback: `The blog post that started it all: <a href="https://foodbabe.com/subway/"
     target="_blank" rel="noopener noreferrer">
@@ -67,7 +67,7 @@ const KEY = [
     {question: `This food ingredient is taken from the stomach of unweaned calves.`,
     answers: ['Lactic Acid', 'Rennet', 'Sodium Caseinate', 'Lysozyme'],
     correct: `Rennet`,
-    response: `<img src="http://www.onearabvegan.com/wp-content/uploads/2016/07/vegan-cashew-cheese-9.jpg"
+    response: `<img src="images/vegan-cashew-cheese-9.jpg"
     alt="cashew cheese">`,
     feedback: `Rennet is an enzyme used for making cheese and is extracted from the 
     dried fourth stomach chamber of calves. Alternatives to animal rennet include plant 
@@ -81,7 +81,7 @@ const KEY = [
     in humans.`,
     answers: ['Aspartame', 'Sucralose', 'Xylitol', 'Saccharin'],
     correct: `Saccharin`,
-    response: `<img src="http://theweeklychallenger.com/wp-content/uploads/2018/06/ArtificialSweeteners.png"
+    response: `<img src="images/ArtificialSweeteners.png"
     alt="artificial sweetener packets">`,
     feedback: `Saccharin was actually popular in World War I and World War II when there 
     were sugar shortages. The FDA considers all artificial sweeteners on your grocery 
@@ -95,7 +95,7 @@ const KEY = [
     50 Worst Inventions.`,
     answers: ['Olestra', 'Sodium Diacetate', 'Fumaric Acid', 'Partially Hydrogenated Oil'],
     correct: `Olestra`,
-    response: `<img src="http://www.reactiongifs.com/wp-content/uploads/2013/02/yuck.gif"
+    response: `<img src="images/yuck.gif"
     alt="Rashida Jones reacting with 'yuck'">`,
     feedback: `Still approved as a food additive by the FDA, olestra (sometimes known by its brand 
     name Olean) not only makes you struggle in the bathroom but also limits your body’s ability 
@@ -109,7 +109,7 @@ const KEY = [
     you’re picking up from the grocery store could be months old and you don’t even know!`,
     answers: ['Propyl Gallate', 'Butylated hydroxyanisole (BHT)', 'Calcium Carbide', 'Diphenylamine (DPA)'],
     correct: `Diphenylamine (DPA)`,
-    response: `<img src="https://images.pexels.com/photos/693794/pexels-photo-693794.jpeg"
+    response: `<img src="images/green-apples.jpeg"
     alt="shiny green apples">`,
     feedback: `DPA residue is often found on raw apples as well as apple juice and applesauce and it’s known 
     to break down into nitrosamines (carcinogen). We don’t know enough about if or how much the DPA residue is 
@@ -120,7 +120,7 @@ const KEY = [
     to confirm the reported symptoms in research studies.`,
     answers: ['Maltol', 'Sodium Nitrite', 'Monosodium Glutamate', 'Carrageenan'],
     correct: `Monosodium Glutamate`,
-    response: `<img src="https://s27160.pcdn.co/wp-content/uploads/drupal/uploads/2016/09/30/MSGyellowbowl.jpg"
+    response: `<img src="images/MSGyellowbowl.jpg"
     alt="Monosodium Glutamate in a yellow bowl">`,
     feedback: `Ah, monosodium glutamate. So yummy yet so controversial. It’s popular in Asian cooking and 
     snacks and is derived from the amino acid, glutamic acid. It adds a savory umami flavor to foods. MSG has 
